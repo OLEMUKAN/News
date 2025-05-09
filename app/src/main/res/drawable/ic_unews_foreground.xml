@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Newspaper icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,35L78,35A3,3 0,0 1,81 38L81,76A3,3 0,0 1,78 79L30,79A3,3 0,0 1,27 76L27,38A3,3 0,0 1,30 35z" />
+    
+    <!-- Text lines -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M33,43L58,43A1,1 0,0 1,59 44L59,46A1,1 0,0 1,58 47L33,47A1,1 0,0 1,32 46L32,44A1,1 0,0 1,33 43z" />
+    
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M33,51L73,51A1,1 0,0 1,74 52L74,54A1,1 0,0 1,73 55L33,55A1,1 0,0 1,32 54L32,52A1,1 0,0 1,33 51z" />
+    
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M33,59L68,59A1,1 0,0 1,69 60L69,62A1,1 0,0 1,68 63L33,63A1,1 0,0 1,32 62L32,60A1,1 0,0 1,33 59z" />
+    
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M33,67L63,67A1,1 0,0 1,64 68L64,70A1,1 0,0 1,63 71L33,71A1,1 0,0 1,32 70L32,68A1,1 0,0 1,33 67z" />
+    
+    <!-- UNews Logo in corner -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M63,40L75,40A2,2 0,0 1,77 42L77,47A2,2 0,0 1,75 49L63,49A2,2 0,0 1,61 47L61,42A2,2 0,0 1,63 40z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,43.5L65,45.5L67,45.5L67,43.5L65,43.5ZM69,43.5L69,45.5L71,45.5L71,43.5L69,43.5Z" />
+</vector> 

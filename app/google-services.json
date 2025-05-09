@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "282611919908",
+    "project_id": "ndejje-news",
+    "storage_bucket": "ndejje-news.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282611919908:android:2f84a35fca3dfc4ee9fcb1",
+        "android_client_info": {
+          "package_name": "com.example.ndejjenews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkQqp3vLSJsNlZZqa7ltMbN9H5TzoekGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
