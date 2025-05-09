@@ -42,7 +42,7 @@ The application aims to replace traditional, inefficient communication methods (
 - Offline article caching for uninterrupted access
 - Responsive layout for different screen sizes
 
-## 🇺🇬 Use Case in Ugandan Context
+## Use Case in Ugandan Context
 
 ### Problem Statement
 Universities across Uganda face significant challenges in communication between administration and students. Current methods include:
@@ -383,37 +383,23 @@ com.example.ndejjenews/
 - **Offline Persistence**: Enabled for reading articles without connectivity
 - **Security Rules**: Proper rules for data access control (example below)
 
-```
-// Firestore Security Rules
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /users/{userId} {
-      allow read: if request.auth != null && request.auth.uid == userId;
-      allow write: if request.auth != null && request.auth.uid == userId;
-    }
-    
-    match /articles/{articleId} {
-      allow read: if request.auth != null;
-      allow write: if request.auth != null && 
-                    get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
-    }
-    
-    match /comments/{commentId} {
-      allow read: if request.auth != null;
-      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
-      allow delete: if request.auth != null && 
-                     (resource.data.userId == request.auth.uid || 
-                      get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true);
-    }
-  }
-}
-```
-
 ## 📱 Screenshots
 
 <div align="center">
-  <p><i>Screenshots will be available soon</i></p>
+  <h3>Login Screen</h3>
+  <img src="app/src/screenshots/login_screen.png" alt="Login Screen" width="300"/>
+  
+  <h3>Register Screen</h3>
+  <img src="app/src/screenshots/register_screen.png" alt="Register Screen" width="300"/>
+  
+  <h3>News Feed</h3>
+  <img src="app/src/screenshots/news_feed.png" alt="News Feed" width="300"/>
+  
+  <h3>Article Details</h3>
+  <img src="app/src/screenshots/article_details.png" alt="Article Details" width="300"/>
+  
+  <h3>Admin Dashboard</h3>
+  <img src="app/src/screenshots/admin_dashboard.png" alt="Admin Dashboard" width="300"/>
 </div>
 
 ## 🔍 Troubleshooting & Common Issues
@@ -443,10 +429,6 @@ service cloud.firestore {
 - **Rich Text Editor**: Enhanced article creation with formatting options
 - **Localization**: Support for multiple languages
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👨‍💻 Contributors
 
 - [Your Name] - Lead Developer
@@ -456,3 +438,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div align="center">
   <p>© 2023-2025 UNews Team - Final Year Project</p>
 </div> 
+
+

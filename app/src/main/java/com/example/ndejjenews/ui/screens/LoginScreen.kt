@@ -91,9 +91,9 @@ fun LoginScreen(
         ) {
             // App logo or icon
             Image(
-                painter = painterResource(id = R.drawable.ic_launcher_foreground),
+                painter = painterResource(id = R.drawable.ic_unews_foreground),
                 contentDescription = stringResource(R.string.app_name),
-                modifier = Modifier.size(120.dp)
+                modifier = Modifier.size(150.dp)
             )
             
             Spacer(modifier = Modifier.height(dimensionResource(R.dimen.spacing_large)))
